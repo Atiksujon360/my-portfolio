@@ -31,7 +31,7 @@ function Home() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="inline-block"
             >
-              I'm
+              I&apos;m
             </motion.span>
             <motion.span
               initial={{ opacity: 0, y: -50 }}
@@ -329,16 +329,9 @@ function Home() {
             <h2 className="text-3xl font-medium mb-4">
               Ready to start your next project?
             </h2>
-            <p className="mb-8">
-              Let’s work together to create something amazing. Contact me today!
+            <p>
+              Let&apos;s connect and discuss your project requirements.
             </p>
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-white text-indigo-500 py-2 px-6 rounded-lg text-lg hover:bg-gray-100"
-            >
-              Get in Touch
-            </motion.button>
           </div>
         </div>
       </motion.div>
